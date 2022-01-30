@@ -9,6 +9,7 @@
   --bg-color: #fcfcfc;
   --primary-color: #3571c0;
   --navbar: #E72221;
+  --navtxt : #fcfc
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -71,11 +72,11 @@ nav {
 }
 
 nav h1 {
-  color: var(--bg-color);
+  color: var(--navtxt);
 }
 
 nav a {
-  color: var(--bg-color);
+  color: var(--navtxt);
   transition: var(--transition);
 }
 nav a:hover {
@@ -96,7 +97,7 @@ nav ul li {
   color: var(--navbar);
   font-size: 2rem;
   border: 0;
-  background-color: (transparent);
+  background-color: var(transparent);
   cursor: pointer;
   display: none;
 }
